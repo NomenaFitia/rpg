@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/tank.png</file>
+        <file>images/assassin.png</file>
+        <file>images/gameover.png</file>
+        <file>models/enemy.obj</file>
+        <file>shaders/simple.frag</file>
+        <file>shaders/simple.vert</file>
+    </qresource>
+</RCC>
