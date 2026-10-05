@@ -55,6 +55,7 @@ RESOURCES += \
     resources.qrc
 
 DISTFILES += \
+    .gitignore \
     shaders/simple.frag \
     shaders/simple.vert
 
