@@ -1,11 +1,35 @@
-RPG : 
+# RPG
 
-Lancer l'executable
-Choisir entre tank ou assassin
+Petit jeu développé en **C++** avec **Qt** et **OpenGL**, dans le cadre de la familiarisation avec ces technologies.
 
-L'aventurier sera colorié en bleu et les ennemis en rouge
+## 🎮 Présentation
 
-la description au dessus de l'aventurier sont son niveau, son type et ses PV
-la description au dessus des ennemis sont son type et ses PV
+Le joueur choisit son type de personnage :
 
-le jeu se termine quand l'aventurier meurt
+* 🛡️ Tank
+* ⚔️ Assassin
+
+Les personnages se déplacent de manière aléatoire et peuvent interagir entre eux.
+
+Les personnages et les ennemis sont affichés avec leurs informations :
+
+* Niveau
+* Type
+* Points de vie (PV)
+
+L'aventurier est affiché en bleu et les ennemis en rouge.
+
+## 🕹️ Fonctionnement
+
+Le jeu se termine lorsque les points de vie de l'aventurier atteignent zéro.
+
+## 🛠️ Technologies
+
+* C++
+* Qt
+* OpenGL
+* GLSL
+
+## 🚀 Lancer le projet
+
+Ouvrir `RPG.pro` avec **Qt Creator**, configurer un kit Qt compatible, puis compiler et lancer le projet.
