@@ -1,5 +1,5 @@
-#include "Adventurer.h"
-#include "Personage.h"
+#include "adventurer.h"
+#include "personage.h"
 #include<iostream>
 
 Adventurer::Adventurer(Vector2 position, int health, int damage)

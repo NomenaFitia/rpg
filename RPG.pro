@@ -24,19 +24,19 @@ SOURCES += \
     src/map.cpp \
     src/objectloader.cpp \
     src/personage.cpp \
-    src\main.cpp \
+    src/main.cpp \
 
 HEADERS += \
     src/adventurer.h \
     src/adventurerType/assassin.h \
     src/adventurerType/tank.h \
-    src/appmanager.h \
+    src/AppManager.h \
     src/characterselectionwindow.h \
     src/combatsystem.h \
     src/decor.h \
     src/enemy.h \
     src/entity.h \
-    src/game.h \
+    src/Game.h \
     src/gameoverwindow.h \
     src/gamewindow.h \
     src/map.h \
@@ -58,4 +58,10 @@ DISTFILES += \
     shaders/simple.frag \
     shaders/simple.vert
 
-LIBS += -lopengl32
+win32 {
+    LIBS += -lopengl32
+}
+
+unix {
+    LIBS += -lGL
+}

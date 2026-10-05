@@ -1,8 +1,8 @@
 #ifndef COMBATSYSTEM_H
 #define COMBATSYSTEM_H
 
-#include "Adventurer.h"
-#include "Enemy.h"
+#include "adventurer.h"
+#include "enemy.h"
 
 class CombatSystem {
 public:

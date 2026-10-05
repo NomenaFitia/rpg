@@ -1,7 +1,7 @@
 #ifndef ENEMY_H
 #define ENEMY_H
 
-#include "Personage.h"
+#include "personage.h"
 #include <string>
 
 

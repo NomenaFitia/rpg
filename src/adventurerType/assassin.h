@@ -1,7 +1,7 @@
 #ifndef ASSASSIN_H
 #define ASSASSIN_H
 
-#include <src/Adventurer.h>
+#include "src/adventurer.h"
 #include <string>
 
 

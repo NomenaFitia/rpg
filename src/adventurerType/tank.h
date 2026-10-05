@@ -1,7 +1,7 @@
 #ifndef TANK_H
 #define TANK_H
 
-#include "src/Adventurer.h"
+#include "src/adventurer.h"
 #include <string>
 
 class Tank : public Adventurer

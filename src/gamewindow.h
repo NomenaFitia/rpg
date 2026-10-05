@@ -11,7 +11,7 @@
 #include "Game.h"
 #include "qmatrix4x4.h"
 #include "qopenglshaderprogram.h"
-#include "src/ObjectLoader.h"
+#include "src/objectloader.h"
 
 class GameWindow : public QOpenGLWidget, protected QOpenGLFunctions {
     Q_OBJECT

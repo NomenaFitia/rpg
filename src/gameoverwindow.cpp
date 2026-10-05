@@ -1,4 +1,4 @@
-#include "GameOverWindow.h"
+#include "gameoverwindow.h"
 
 GameOverWindow::GameOverWindow(int level, QWidget* parent)
     : QWidget(parent) {

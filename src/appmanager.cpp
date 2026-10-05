@@ -28,6 +28,8 @@ void AppManager::showGameOver(int level) {
 }
 
 void AppManager::showCharacterSelection() {
+
+    gameOverWindow.reset();
     characterSelectionWindow = std::make_unique<CharacterSelectionWindow>();
     connect(characterSelectionWindow.get(), &CharacterSelectionWindow::characterSelected, this, &AppManager::startGame);
     characterSelectionWindow->show();

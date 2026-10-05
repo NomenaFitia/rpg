@@ -4,7 +4,7 @@
 #include <QObject>
 #include <memory>
 #include <QTimer>
-#include "game.h"
+#include "Game.h"
 #include "gamewindow.h"
 #include "characterselectionwindow.h"
 #include "gameoverwindow.h"

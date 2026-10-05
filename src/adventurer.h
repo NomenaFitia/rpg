@@ -1,7 +1,7 @@
 #ifndef ADVENTURER_H
 #define ADVENTURER_H
 
-#include "Personage.h"
+#include "personage.h"
 #include <string>
 
 class Adventurer : public Personage {

@@ -1,7 +1,7 @@
 #ifndef PERSONAGE_H
 #define PERSONAGE_H
 
-#include "Entity.h"
+#include "entity.h"
 #include <memory>
 #include <vector>
 

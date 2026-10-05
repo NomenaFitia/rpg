@@ -1,4 +1,4 @@
-#include "src/Personage.h"
+#include "src/personage.h"
 #include <iostream>
 #include <ostream>
 #include <random>

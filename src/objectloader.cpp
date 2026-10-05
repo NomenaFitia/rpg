@@ -1,4 +1,4 @@
-#include "ObjectLoader.h"
+#include "objectloader.h"
 #include <QFile>
 #include <QTextStream>
 #include <QDebug>

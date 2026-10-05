@@ -1,4 +1,4 @@
-#include "GameWindow.h"
+#include "gamewindow.h"
 #include <QPainter>
 #include <QOpenGLShaderProgram>
 #include <QMatrix4x4>

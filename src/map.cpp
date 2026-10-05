@@ -1,4 +1,4 @@
-#include "Map.h"
+#include "map.h"
 
 Map::Map(Vector2 grid) : width(grid.x), height(grid.y), adventurer(nullptr) {}
 

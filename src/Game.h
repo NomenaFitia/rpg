@@ -1,7 +1,7 @@
 #ifndef GAME_H
 #define GAME_H
 
-#include "Map.h"
+#include "map.h"
 #include <QTimer>
 
 class Game : public QObject {

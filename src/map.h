@@ -1,9 +1,9 @@
 #ifndef MAP_H
 #define MAP_H
 
-#include "Vector2.h"
-#include "src/Adventurer.h"
-#include "src/Enemy.h"
+#include "vector2.h"
+#include "src/adventurer.h"
+#include "src/enemy.h"
 #include <vector>
 
 class Map {

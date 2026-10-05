@@ -1,4 +1,4 @@
-#include "CharacterSelectionWindow.h"
+#include "characterselectionwindow.h"
 #include "qcoreevent.h"
 
 CharacterSelectionWindow::CharacterSelectionWindow(QWidget* parent)

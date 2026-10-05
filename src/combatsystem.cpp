@@ -1,4 +1,4 @@
-#include "CombatSystem.h"
+#include "combatsystem.h"
 #include <iostream>
 
 CombatSystem::CombatSystem(Adventurer* adventurer, Enemy* enemy)
